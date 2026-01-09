@@ -2,7 +2,8 @@ name: zhaliangyy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 5/6 * * *'
+    - cron: '41 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,9 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaliangyy
         env:
-          de41736: ${{ secrets.de41736 }}
+          omz2670: ${{ secrets.omz2670 }}
         run: |
-          echo $de41736 | jq -r .gl4 | /bin/bash
-          echo $g993 | jq -r .mrw1329 | /bin/bash
-          echo $wa07557 | jq -r .ws27176 | /bin/bash
+          echo $omz2670 | jq -r .dbei077 | /bin/bash
+          echo $blpd221 | jq -r .uuid74900 | /bin/bash
+          echo $ck7749 | jq -r .cwmyd7365 | /bin/bash
+          echo $aenq3 | jq -r .nlvd58 | /bin/bash
+          echo $fer748 | jq -r .obfdp55 | /bin/bash
+          echo $ucx8038 | jq -r .xdijx294 | /bin/bash
+          echo $touma457 | jq -r .yhsfq15155 | /bin/bash
 
